@@ -25,20 +25,19 @@ A dynamic food delivery web application built using **Java**, **JSP**, **Servlet
 | Server      | Apache Tomcat (v10.x)        |
 
 ---
-
 ## 📂 Project Structure
+```
+
 FoodApp/
-|
 ├── src/
-│ └── main/
-│ ├── java/ # Java source files
-│ ├── webapp/ # JSP files & frontend assets
-│
-├── target/ # Build output (ignored)
-├── pom.xml # Maven config file
-└── .gitignore
+│   └── main/
+│       ├── java/          # Java source files
+│       └── webapp/        # JSP files & frontend assets
+├── target/                # Build output (ignored)
+├── pom.xml                # Maven config file
+└── .gitignore             # Git ignore rules
 
-
+```
 ---
 
 ## 🏁 How to Run
