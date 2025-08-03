@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>FoodApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>checkInputs</servlet-name>
+    <servlet-class>com.foodapp.servlets.ValidInput</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>checkInputs</servlet-name>
+    <url-pattern>/ValidInput</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+  	<servlet-name>checkRegistraction</servlet-name>
+  	<servlet-class>com.foodapp.servlets.ProcessRegistration</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>checkRegistraction</servlet-name>
+  	<url-pattern>/registerInputs</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>getAllRestaurant</servlet-name>
+  	<servlet-class>com.foodapp.servlets.GetAllRestaurent</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>getAllRestaurant</servlet-name>
+  	<url-pattern>/getallrestaurant</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>getAllMenu</servlet-name>
+  	<servlet-class>com.foodapp.servlets.GetMenu</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>getAllMenu</servlet-name>
+  	<url-pattern>/getmenu</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
