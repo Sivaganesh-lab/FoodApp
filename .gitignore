@@ -1,0 +1,23 @@
+# Build output
+/target/
+*.class
+*.war
+*.jar
+
+# Logs
+*.log
+
+# IDE settings
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment/Secrets
+.env
+*.db
