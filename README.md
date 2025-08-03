@@ -28,7 +28,7 @@ A dynamic food delivery web application built using **Java**, **JSP**, **Servlet
 
 ## 📂 Project Structure
 FoodApp/
-│
+|
 ├── src/
 │ └── main/
 │ ├── java/ # Java source files
